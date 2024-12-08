@@ -1,0 +1,59 @@
+label{
+  color: yellow;
+}
+h1{
+  color: yellow;
+  margin-left: 40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: black;
+}
+form {
+    width: 370px;
+    height: 470px;
+    margin-left: 451px;
+    margin-top: 50px;
+    border: 5px solid yellow;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 0;
+}
+label {
+    display: block; /* Make labels block-level elements */
+    margin-bottom: 8px;
+}
+input {
+    width: 300px; /* Make input fields fill the available width */
+    padding: 8px;
+    margin-bottom: 12px; /* Add space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 80px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+}
+#output{
+    width: 370px;
+    margin-top: 50px;
+    margin-left: 451px;
+    border: 5px solid yellow;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 0;
+    padding-top: 10px;
+}
